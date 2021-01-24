@@ -1,9 +1,11 @@
-type Pepole{
-    name: String!
-    age: Int!
-    gender: String!
+type Person {
+  id: Int!
+  name: String!
+  age: Int!
+  gender: String!
 }
 
 type Query {
-  person: Pepole!
+  people: [Person]!
+  person(id: Int!): Person
 }
