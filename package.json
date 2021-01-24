@@ -7,7 +7,9 @@
   "author": "young jae",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "axios": "^0.21.1",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
@@ -17,7 +19,6 @@
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
     "nodemon": "^2.0.7"
